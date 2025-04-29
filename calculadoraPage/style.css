@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  background-image: url(image/rm373batch13-086.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+
+}
+h1{
+color: aliceblue;
+font-size:50px;
+}
+header{
+padding: 40px;
+display: flex;
+align-items: center;
+
+}
+.center{
+  background-color: rgba(203, 216, 214, 0.658);
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+   border-radius: 40px;
+ 
+}
+.text2{
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5em;
+   display: flex;
+   flex-wrap: wrap;
+   flex: 1;
+   padding: 15px;
+
+}
+.item{
+ 
+  margin: 5px;
+	background: rgba(0, 42, 255, 0.595);
+	text-align: center;
+	font-size: 50px;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+input{
+  font-size: larger;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 60px;
+  background-image: radial-gradient(#ffffff, #90c2ed);
+ }
+ h2{
+  font-size: 18px;
+  color: aliceblue;
+ }
+img{
+  width: 100px;
+  
+} 
